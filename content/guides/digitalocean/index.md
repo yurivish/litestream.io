@@ -108,8 +108,9 @@ dbs:
       - type: s3
         bucket:   SPACENAME
         path:     db
-        endpoint: nyc3.digitaloceanspaces.com
+        endpoint: https://nyc3.digitaloceanspaces.com
         region:   nyc3   # set to your region
+        forcePathStyle: yes
 ```
 
 You may also specify your key credentials on a per-replica basis:
